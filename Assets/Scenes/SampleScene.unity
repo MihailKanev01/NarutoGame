@@ -961,6 +961,8 @@ GameObject:
   - component: {fileID: 1744538331401006189}
   - component: {fileID: 1744538331401006190}
   - component: {fileID: 1744538331401006191}
+  - component: {fileID: 1744538331401006193}
+  - component: {fileID: 1744538331401006192}
   m_Layer: 0
   m_Name: Naruto
   m_TagString: Untagged
@@ -1103,6 +1105,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1744538331401006192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404569969504941783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1aeabe772cba946a6990c45a7248c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1744538331401006193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404569969504941783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8015d445a582124cb5558f58fba0c1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1826147922673897932
 Transform:
   m_ObjectHideFlags: 0
