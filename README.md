@@ -1,63 +1,57 @@
+
 # NarutoGame
 
-A Unity third-person character prototype centered on camera-relative movement and a smooth follow camera.
+A Unity 6 third-person gameplay prototype focused on player locomotion, character rotation and camera control.
 
 ## Overview
 
-The project contains a Unity scene with a Naruto character model and custom C# scripts for player movement and camera control.
+The project contains a compact third-person controller built with Unity's CharacterController and Input System.
 
-The current implementation focuses on:
+Movement is calculated relative to the camera, while the character smoothly rotates towards the requested movement direction.
+
+## Technical Focus
 
 - Camera-relative player movement.
-- Smooth character rotation towards the movement direction.
-- Animator state updates for running.
+- Smooth character rotation.
 - CharacterController-based locomotion.
+- Animator state updates.
 - Third-person camera follow behaviour.
 - Mouse-controlled camera rotation with vertical limits.
+- Unity Input System integration.
 
-## Technical focus
+## Stack
 
 **Engine:** Unity 6  
-**Unity version:** 6000.0.41f1  
+**Version:** 6000.0.41f1  
 **Language:** C#
 
-Main gameplay scripts:
+## Main Scripts
 
-- `Assets/Scripts/PlayerMovement.cs`
-- `Assets/Scripts/CameraFollow.cs`
+- Assets/Scripts/PlayerMovement.cs
+- Assets/Scripts/CameraFollow.cs
 
-The repository also contains the Unity Input System action asset and project settings.
-
-## How it works
-
-Player movement is calculated from horizontal and vertical input, then rotated relative to the camera direction. The character smoothly turns toward the target direction while the `CharacterController` handles locomotion.
-
-The camera follows a target transform and uses mouse input for horizontal orbiting and clamped vertical rotation.
-
-## Run locally
+## Run Locally
 
 1. Clone the repository.
-2. Open the project with Unity 6 / editor version `6000.0.41f1`.
-3. Open `Assets/Scenes/SampleScene.unity`.
+2. Open the project with Unity 6000.0.41f1.
+3. Open Assets/Scenes/SampleScene.unity.
 4. Press **Play**.
 
-## Repository structure
+## Repository Structure
 
-```text
-Assets/
-├── Models/
-├── Scripts/
-│   ├── CameraFollow.cs
-│   └── PlayerMovement.cs
-├── Scenes/
-└── InputSystem_Actions.inputactions
-ProjectSettings/
-└── ProjectVersion.txt
-```
+    Assets/
+    ├── Models/
+    ├── Scripts/
+    │   ├── CameraFollow.cs
+    │   └── PlayerMovement.cs
+    ├── Scenes/
+    └── InputSystem_Actions.inputactions
+    ProjectSettings/
+    └── ProjectVersion.txt
 
-## Project status
+## Project Status
 
-This repository is a focused Unity gameplay prototype. It is useful as a compact example of third-person movement, camera control and basic animation integration.
+A focused gameplay prototype intended to demonstrate third-person movement, camera control and basic animation integration.
 
 ## License
 
